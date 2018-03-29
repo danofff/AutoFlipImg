@@ -99,6 +99,7 @@ namespace AutoFlipImg
                 this.Invoke((Action)delegate
                 {
                     this.Text = ex.Message;
+
                 });
             }
         }
